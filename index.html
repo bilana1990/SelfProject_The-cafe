@@ -63,7 +63,7 @@
       <h2>THE MENU</h2>
 
       <div class="menu">
-        <a class="Single" target="1">Eat Menu</a>
+        <a class="Single" target="1" class="active">Eat Menu</a>
         <a class="Single" target="2">Drink Menu</a>
       </div>
 
@@ -158,6 +158,14 @@
         $(this).addClass("active").siblings().removeClass();
       });
     </script>
+
+<script>
+  $(document).on("click", ".menu a", function () {
+    $(this).addClass("active").siblings().removeClass();
+  });
+</script>
+
+
 
     <!-- // MENU section javascript -->
     <script>
