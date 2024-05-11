@@ -193,6 +193,9 @@ header nav ul li.active a {
 .MENU .target_box #div2 {
   display: none;
 }
+.menu .Single {
+  cursor: pointer;
+}
 
 /* section WHERE */
 .WHERE {
@@ -453,16 +456,33 @@ footer {
     font-size: 20px;
   }
   .eat_menu {
+    /* padding-bottom: 10px; */
+    padding: -53px 76px;
     display: flex;
     flex-direction: column;
     padding-left: 57%;
+    padding-top: 2px;
     width: 191%;
     justify-content: center;
     /* align-items: center; */
     gap: 20px;
     border: 2px solid grey;
-    height: 500px;
+    height: 638px;
     margin-left: -45.5%;
+    /* padding: 0px 41px; */
+  }
+  .drink_menu {
+    display: flex;
+    flex-direction: column;
+    padding-left: 160%;
+    width: 393%;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    border: 2px solid grey;
+    height: 638px;
+    margin-left: -146%;
+    /* margin-left: 2.5%; */
     /* padding: 0px 100px; */
   }
   .menu a.active {
@@ -528,17 +548,20 @@ footer {
     padding: 20px 20px;
   }
   .eat_menu {
+    /* padding-bottom: 10px; */
+    padding: -53px 76px;
     display: flex;
     flex-direction: column;
     padding-left: 57%;
+    padding-top: 2px;
     width: 215%;
     justify-content: center;
     /* align-items: center; */
     gap: 20px;
     border: 2px solid grey;
-    height: 500px;
+    height: 638px;
     margin-left: -57.5%;
-    /* padding: 0px 100px; */
+    /* padding: 0px 41px; */
   }
   .drink_menu {
     display: flex;
@@ -549,15 +572,40 @@ footer {
     /* align-items: center; */
     gap: 20px;
     border: 2px solid grey;
-    height: 500px;
+    height: 638px;
     margin-left: -172%;
     /* margin-left: 2.5%; */
     /* padding: 0px 100px; */
   }
   .WHERE form input {
     width: 159%;
-    height: 60px;
+    height: 104px;
     padding-left: 10px;
     font-size: 20px;
+  }
+  .ABOUT h2 {
+    margin-top: 118px;
+    background-color: black;
+    color: white;
+    /* display: inline-block; */
+    padding: 0px 45px;
+    width: 300px;
+    /* margin-left: 18%; */
+  }
+  .MENU h2 {
+    margin-top: 118px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 0px 15px;
+    /* margin-left: 28%; */
+  }
+  .WHERE h2 {
+    margin-top: 118px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 0px 15px;
+    /* margin-left: 18%; */
   }
 }
